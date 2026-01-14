@@ -9,3 +9,13 @@ Github :-
 3. commands :- 
      -> git init
      -> git add .
+     -> git commit -m "first commit"
+     -> email and username 
+     -> git branch -M main
+     -> git remote add origin https://github.com/chouhanjibanti/webtech_12_1.30.git
+     -> git push -u origin main
+
+    4. if you want to update the code in the existing repo
+    1. git add .
+    2. git commit -m "readme file change" 
+    3. git push 
