@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .translate-box {
+        height: 100px;
+        width: 100px;
+        background-color: green;
+        transition: transform 1s;
+      }
+      .translate-box:hover {
+        transform: translate(50px, 30px);
+        /* transform: translateX(20px); */
+      }
+
+      /* ========================================= */
+
+      .scale-box {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        transition: transform 1s;
+      }
+      .scale-box:hover {
+        transform: scale(1.1);
+      }
+
+      /* ========================================= */
+
+      .rotate-box{
+        height: 100px;
+        width: 100px;
+        background-color: chartreuse;
+        transition: transform 2s;
+      }
+      .rotate-box:hover{
+        transform: rotate(360deg);
+      }
+
+      /* ========================================== */
+
+        .skew-box{
+        height: 100px;
+        width: 100px;
+        background-color: burlywood;
+        transition: transform 3s;
+      }
+      .skew-box:hover{
+        transform: skew(20deg,30deg);
+      }
+
+      /* ======================================== */
+
+        .Combined-box{
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+        transition: transform 3s;
+      }
+      .Combined-box:hover{
+        transform: translate(50px, 30px) scale(0.1) rotate(360deg) skew(20deg,30deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="translate-box">Translate Box</div>
+    <br />
+
+    <div class="scale-box">Scale Box</div>
+
+    <div class="rotate-box">Rotate-Box</div>
+
+    <div class="skew-box">Skew-Box</div>
+
+        <div class="Combined-box">Combined-Box</div>
+
+  </body>
+</html>

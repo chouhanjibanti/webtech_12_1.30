@@ -24,3 +24,18 @@ Github :-
 peeu 
 Ambuj
 Ajay
+
+
+
+=============================================
+
+Pseudo class Selector :- 
+
+keyword , attach with the selector 
+
+link 
+active 
+visited 
+checked 
+focus 
+hover

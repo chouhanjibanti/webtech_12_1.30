@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+             background-color: blueviolet;
+        }
+        .box{
+            background-color: brown;
+            height: 250px;
+            width: 250px;
+            position: relative;
+
+            /* animation-name: debugshala;
+            animation-duration: 3s; */
+
+            animation-name: ambuj;
+            animation-duration: 8s;
+
+            /* animation-iteration-count: 3; */
+            /* animation-iteration-count: infinite; */
+
+            /* animation-delay: 3s; */
+
+            /* animation-timing-function: ease-in; */
+            /* animation-timing-function: ease-out; */
+            /* animation-timing-function: ease-in-out; */
+
+            /* animation-direction: reverse; */
+            /* animation-direction: alternate; */
+            /* animation-direction: alternate-reverse; */
+        }
+
+        @keyframes debugshala{
+            from {
+                width: 250px;
+            }
+            to
+            {
+                width: 1000px;
+            }
+        }
+
+        @keyframes ambuj{
+            0%{
+                top: 0px;
+                left: 0px;
+            }
+            25%{
+                top: 250px;
+                left: 0px;
+            }
+            50%{
+                top: 250px;
+                left: 250px;
+            }
+            75%{
+                background-color: yellow;
+                top: 0px;
+                left: 250px;
+            }
+            100%{
+               top: 0px;
+               left: 1000px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+
+    <!-- div.container>div.box -->
+</body>
+</html>

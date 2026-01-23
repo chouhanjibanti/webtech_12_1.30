@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            border: 2px solid;
+            height: 400px;
+
+            display: flex;
+            gap: 10px;
+
+            /* flex-direction */
+            /* flex-direction: row; */
+            /* flex-direction: row-reverse; */
+
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            
+            /* flex-wrap */
+            /* flex-wrap: wrap; */
+            /* flex-wrap: nowrap; */
+
+            /* flex-flow -> combination of directiona and warp */
+            /* flex-flow: row wrap; */
+            /* flex-flow: column wrap; */
+
+            /* justify -content  */
+             /* justify-content: start; */
+            /* justify-content: end; */
+            /* justify-content: center; */
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly;  */
+
+            /* Align-items */
+            /* align-items: flex-start;
+            align-items: flex-end;
+            align-items: center; */
+        }
+
+        .box{
+            border: 1px solid;
+            height: 20px;
+            width: 60px;
+        }
+
+        /* #box1{
+            order: 1;
+        } */
+       /* #box2{
+        flex-grow: 1;
+       }
+       #box3{
+        flex-grow: 4;
+       } */
+        /* #box4{
+            flex-shrink: 4;
+        } */
+
+    </style>
+</head>
+<body>
+    
+
+    <!--  short form -->
+      <!-- div.container>div.box#box$*8{BOX-$} -->
+
+            <div class="container">
+                <div class="box" id="box1">BOX-1</div>
+                <div class="box" id="box2">BOX-2</div>
+                <div class="box" id="box3">BOX-3</div>
+                <div class="box" id="box4">BOX-4</div>
+                <div class="box" id="box5">BOX-5</div>
+                <div class="box" id="box6">BOX-6</div>
+                <div class="box" id="box7">BOX-7</div>
+                <div class="box" id="box8">BOX-8</div>
+            </div>
+
+
+
+</body>
+</html>
