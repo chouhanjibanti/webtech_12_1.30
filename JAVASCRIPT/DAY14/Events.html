@@ -1,0 +1,101 @@
+<!-- 
+1. onClick :- button 
+2. onChange :- input field  - ReactJS
+3. onSubmit :- form  - ReactJS
+
+Mouse Event :- 
+1. onMouseOver
+2. onMouseLeave
+3. onMouseMove 
+
+KeyPress Event :- 
+1. onKeyPress
+2. OnKeyPressUp
+3. onKeyPressDown
+
+
+Event Listener :- 
+1. addEventListener :- two parameter (event[click,keypress],function) -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="btn">Submit</button>
+    <button id="otp">OTP</button>
+    <button id="cc">color Change</button>
+
+    <button id="mb">makeborder</button>
+    <h1 id="debug">debugshala</h1>
+    <!-- create a button after clicking on that change the background color of the entire project -->
+    <!-- create  a button after clicking in that create the border to another h1 tag-->
+
+    <button id="omo">MouseOver</button>
+
+    <input type="text" id="input1" />
+
+    <button id="addEvent">addEvent</button>
+
+    <script>
+      //   const btn = document.getElementById("btn");
+      //   btn.onclick = function () {
+      //     document.writeln("i am onclick event");
+      //   };
+
+      // -------------------------------------------------
+      //  9588.611616236994
+      //   const otp = document.getElementById("otp");
+      //   otp.onclick = function (e) {
+      //     const otp1 = Math.floor(Math.random() * 1000000);
+      //     window.alert(`Your Otp is ${otp1}`);
+      //   };
+      // -------------------------------------------------
+      // #fffff
+      //   const cc = document.getElementById("cc");
+      //   const otp3 = document.getElementById("otp");
+
+      //   cc.onclick = function (e) {
+      //     console.log(e);
+      //     let num = Math.floor(Math.random() * 10000);
+      //     //    otp3.style.backgroundColor = `#${num}`
+      //     document.body.style.backgroundColor = `#${num}`;
+      //   };
+
+      //  ----------------------------------------------
+
+      //   const debug = document.getElementById("debug");
+      //   const mb = document.getElementById("mb");
+
+      //   mb.onclick = function(e){
+      //       const num = Math.floor(Math.random() * 100);
+      //     //   let dd = `#${num}`;
+      //       debug.style.border = `${num}px solid red`
+      //     // debug.style.border = "2px solid red"
+      //     // debug.style.color = "Red"
+      //   }
+
+    //   const omo = document.getElementById("omo");
+    //   omo.onmouseup = function (e) {
+    //      document.writeln("hy i am mouse events like over");
+    //   };
+
+    //   const input1 = document.getElementById("input1");
+
+    //   input1.onkeydown = function (e) {
+    //     document.writeln("hy i am onKeyPress");
+    //     document.writeln(e.key);
+    //     document.writeln(e.keyCode);
+    //   };
+
+
+   const addEvent= document.getElementById("addEvent")
+   addEvent.addEventListener("dblclick",()=>{
+      document.writeln("hy")
+   })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" style="border: 1px solid red;">
+        Email :<input type="email" placeholder="Enter email" id="email" style="text-align: center;" > <br>
+        Password : <input type="password" placeholder="Enter password" id="pass" style="text-align: center;"> <br>
+        <button type="submit" id="btn">Submit</button>
+    </form>
+
+    <script>
+    
+         const btn = document.getElementById("btn")
+         btn.onclick = function(){
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("pass").value;
+
+            // store 
+            window.localStorage.setItem(email,password)
+            alert("Data saved to localStorage");
+         }
+    </script>
+</body>
+</html>
